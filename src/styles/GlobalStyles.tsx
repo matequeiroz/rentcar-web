@@ -45,6 +45,7 @@ export default function GlobalStyles() {
 
         main {
           margin: 1.6rem;
+          padding-bottom: 10rem;
         }
       `}
     />

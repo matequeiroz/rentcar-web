@@ -1,24 +1,30 @@
 import Image from "next/image";
 
-import AudiSvg from "../../../public/images/cars/Audi.svg";
 import * as S from "./styles";
 
-export default function CardCar() {
+type CardCarProps = {
+  brand: string;
+  carName: string;
+  priceToDay: number;
+  photoUrl: string;
+};
+
+export default function CardCar({ brand, carName, priceToDay, photoUrl }: CardCarProps) {
   return (
     <S.Container>
       <S.Content>
         <S.InfoContainer>
-            <div>
-                <S.InfoTitle>Audi</S.InfoTitle>
-                <S.InfoContent>RS 5 Coupé</S.InfoContent>
-            </div>
-            <div>
-                <S.InfoTitle>Ao dia</S.InfoTitle>
-                <S.InfoContent price>R$ 120</S.InfoContent>
-            </div>
+          <div>
+            <S.InfoTitle>{brand}</S.InfoTitle>
+            <S.InfoContent>{carName}</S.InfoContent>
+          </div>
+          <div>
+            <S.InfoTitle>Ao dia</S.InfoTitle>
+            <S.InfoContent price>R$ {priceToDay}</S.InfoContent>
+          </div>
         </S.InfoContainer>
         <div>
-          <Image src={AudiSvg} alt="Car photo" />
+          <Image src={photoUrl} alt="Car photo" width={180} height={100} priority />
         </div>
       </S.Content>
     </S.Container>
