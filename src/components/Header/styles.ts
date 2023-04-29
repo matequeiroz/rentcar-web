@@ -13,12 +13,5 @@ export const Header = styled.header`
 export const Content = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
-
-    span {
-        color: var(--gray-300);
-        font-size: 1.5rem;
-        display: inline-block;
-    }
+    justify-content: center;
 `

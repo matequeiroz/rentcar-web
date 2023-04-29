@@ -8,7 +8,11 @@ export default function GlobalStyles() {
           --black-900: #1b1b1f;
 
           --gray-100: #e5e5e5;
-          --gray-300: #7a7a80;
+          --gray-200: #F4F5F6;
+          --gray-300: #AEAEB3;
+          --gray-400: #7a7a80;
+
+          --red-900: #DC1637;
         }
 
         * {
