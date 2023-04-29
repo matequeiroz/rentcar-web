@@ -13,7 +13,7 @@ export function MenuNavigation() {
           <li>
             <BiCar size={22} />
           </li>
-          <li>
+          <li> 
             <BiUser size={22} />
           </li>
         </ul>
