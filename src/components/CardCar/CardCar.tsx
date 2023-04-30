@@ -11,7 +11,7 @@ type CardCarProps = {
 
 export default function CardCar({ brand, carName, priceToDay, photoUrl }: CardCarProps) {
   return (
-    <S.Container>
+    <S.Container data-testid="CardCar-component">
       <S.Content>
         <S.InfoContainer>
           <div>

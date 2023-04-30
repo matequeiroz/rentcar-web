@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardCar.tsx should render the component 1`] = `
+<div>
+  <section
+    class="css-nium2g"
+    data-testid="CardCar-component"
+  >
+    <div
+      class="css-1lse5tz"
+    >
+      <div
+        class="css-z6kccy"
+      >
+        <div>
+          <h6
+            class="css-9qeut1"
+          >
+            Audi
+          </h6>
+          <h5
+            class="css-k3gmv8"
+          >
+            RS 5 Coupé
+          </h5>
+        </div>
+        <div>
+          <h6
+            class="css-9qeut1"
+          >
+            Ao dia
+          </h6>
+          <h5
+            class="css-2t47hf"
+          >
+            R$ 
+            190
+          </h5>
+        </div>
+      </div>
+      <div>
+        <img
+          alt="Car photo"
+          data-nimg="1"
+          decoding="async"
+          fetchpriority="high"
+          height="100"
+          src="/_next/image?url=%2Fimg.jpg&w=384&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=256&q=75 1x, /_next/image?url=%2Fimg.jpg&w=384&q=75 2x"
+          style="color: transparent;"
+          width="180"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;
