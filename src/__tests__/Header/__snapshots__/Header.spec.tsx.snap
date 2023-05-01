@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.tsx should render the component 1`] = `
+<div>
+  <header
+    class="css-9gkpj2"
+    data-testid="Header-component"
+  >
+    <div
+      class="css-4mw0p4"
+    >
+      <img
+        alt="RentCar Logo"
+        data-nimg="1"
+        decoding="async"
+        height="100"
+        loading="lazy"
+        src="/images/logo.svg"
+        style="color: transparent;"
+        width="150"
+      />
+    </div>
+  </header>
+</div>
+`;

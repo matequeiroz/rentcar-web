@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 
 import Header from "@/components/Header/Header";
-import { MenuNavigation } from "@/components/MenuNavigation/MenuNavigation";
+import MenuNavigation  from "@/components/MenuNavigation/MenuNavigation";
 import CardCarList from "@/components/CardCarList/CardCarList";
 import Audi from '../../../public/images/cars/Audi.svg'
 import Corvete from '../../../public/images/cars/Corvete Z06.svg'
